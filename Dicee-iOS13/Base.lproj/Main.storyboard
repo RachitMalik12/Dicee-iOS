@@ -44,6 +44,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="diceImageViewOne" destination="mBB-Ax-6HR" id="pek-Kw-w0D"/>
+                        <outlet property="diceImageViewTwo" destination="rKF-7O-WX2" id="EmV-HP-cBe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
